@@ -1,0 +1,71 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffe4e1;
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #ff9aa2;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #fff;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.date-proposal {
+  margin-top: 30px;
+}
+
+.date-proposal h2 {
+  font-size: 2.2em;
+  color: #ff616f;
+}
+
+.date-proposal p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 1.1em;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #ff616f;
+  color: white;
+  transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 1em;
+  color: #666;
+}
